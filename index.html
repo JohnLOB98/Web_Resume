@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  </head>
+
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: rgba(109, 164, 192, 1);
+    }
+
+    h1.Name {
+      color: white;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: white;
+      text-align: center;
+      /* width:60% */
+      /* content: ""; */
+      /* display: block; */
+      /* width: 120px;
+      height: 2px; */
+      /* background: #000; */
+      /* right: 0;
+      top: 50%; */
+      /* position: absolute; */
+    }
+
+    h4.task {
+      color: white;
+      text-align: center;
+    }
+
+    /* div.column {
+      float: left;
+      width: 50%;
+      margin: 0px 10px 0 10px;
+    }
+
+    .row {
+      display: flex;
+    } */
+
+    div.box {
+      width: 50%;
+      padding: 15px 15px 10px 15px;
+      border-radius: 5px 5px 5px 5px;
+      margin: 15px auto 30px auto;
+      align-self: center;
+      background: white;
+      box-shadow: rgba(3, 22, 26, 1) 5px 5px, rgba(9, 46, 52, 1) 10px 10px,
+        rgba(14, 111, 118, 1) 15px 15px, rgba(17, 150, 157, 1) 20px 20px,
+        rgba(109, 164, 192, 1) 25px 25px;
+      transition: 0.3s;
+      animation: smooth-appear 1s ease forwards;
+    }
+
+    div.section {
+      margin-top: 50px;
+    }
+
+    @media screen and (max-width: 850px) {
+      div.box {
+        width: 80%;
+        transition: 0.3s;
+      }
+
+      h3.info {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+  <body
+    style="
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    "
+  >
+    <h1 class="Name">Juan Barrera</h1>
+    <h4 class="task">Software Developer</h4>
+
+    <!-- <div class="row">
+      <div class="column"> -->
+    <div class="section">
+      <h2 "style="text-align: center">About me</h2>
+      <div class="box">
+        <p style="text-align: justify; text-justify: inter-word">
+          Hello, I'm Juan Barrera, Mechatronic Engineer graduate from CETYS
+          University Campus Ensenada, Mexico. I enjoy working in software
+          development. I'm always looking to improve my programming skills to
+          stay motivated in my path and help other people to increase their
+          efficiency and productivity by creating new tools to increase their
+          value.
+        </p>
+      </div>
+    </div>
+    <!-- </div> -->
+    <!-- <div class="column"> -->
+    <div class="section">
+      <h2 style="text-align: center">Work Experience</h2>
+      <div class="box">
+        <h3>Software Developer</h3>
+        <h4 class="direction-job">
+          Vintage Industries, Tijuana, Baja California, Mexico
+        </h4>
+        <ul>
+          <li>Frontend: HTML, CSS, Javascript.</li>
+          <li>
+            C#, C++, MSSQL, Relational Database, SQL, SQLITE, AJAX, LINQ,
+            Python, Google AppScript, GitHub, Xamarin (Mobile Applications),
+            Visual Studio Community.
+          </li>
+          <li>
+            Create and upgrade the actual software to innovate and control in a
+            better way the data.
+          </li>
+          <li>
+            Document, design and explain all changes that are made in any
+            software to ensure the correct implementation of new upgrades or
+            creations in development.
+          </li>
+          <li>Microsoft Office: Excel, Word, PowerPoint and Outlook</li>
+          <li>
+            Collaborate with different partners to improve and make their work
+            area more efficient with new technologies.
+          </li>
+          <li>
+            Train frequently the personnel to use the new softwares or updates.
+          </li>
+        </ul>
+
+        <h3>Data Base Developer</h3>
+        <h4 class="direction-job">
+          Baja Dynamo, Ensenada, Baja California, Mexico
+        </h4>
+        <ul>
+          <li>C#</li>
+          <li>OOP.</li>
+          <li>.NET Core.</li>
+          <li>MSSQL, SQL and SQLite.</li>
+          <li>Visual Studio Community.</li>
+          <li>GitHub.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->
+
+    <!-- <div class="row">
+      <div class="column"> -->
+    <div class="section">
+      <h2 class="section-title">Volunteer Work</h2>
+      <div class="box">
+        <h3>Data Base Developer</h3>
+        <h4 class="direction-job">
+          CETYS University, Ensenada, Baja California, Mexico
+        </h4>
+        <ul>
+          <li>Assembly Language.</li>
+          <li>
+            Support younger students to improve their skills in assembly
+            language to use the microcontroller intel 8086.
+          </li>
+          <li>
+            Prepare logical problems to increase their ability to solve
+            difficult situations.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- </div>
+      <div class="column"> -->
+    <div class="section">
+      <h2 style="text-align: center">Contact</h2>
+      <div class="box">
+        <h3 class="info">+52 6645040388</h3>
+        <h3 class="info">juan.barrera@lub.com.mx</h3>
+        <h3 class="info">
+          <a href="https://github.com/JohnLOB98">GitHub Profile</a>
+        </h3>
+      </div>
+    </div>
+    <!-- </div>
+    </div> -->
+  </body>
+</html>
